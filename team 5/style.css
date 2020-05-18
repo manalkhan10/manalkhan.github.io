@@ -1,0 +1,210 @@
+/* varun: added basic body selector, feel free to edit anything here*/
+body  {
+    background-color: bisque;
+}
+
+
+#varunSection {
+    /* differentiating section with background color and border*/
+    background-color: lightgreen;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif; /* different font */
+    border-radius: 22px; /* gives rounded edges on border */
+    padding: 20px; /* adds some space along the edges */
+}
+#varunSection h1 {
+    text-align: center;
+    font-weight: bold;
+}
+/* styling head row of table differently*/
+#varunSection .tableTitle {
+    font-size: 20px;
+    font-style: normal;
+    background-color: rgb(13, 212, 13);
+}
+#varunSection table {
+    border: 2px solid black;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+}
+#varunSection .sideNote {
+    /* different font for the side notes*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding-top: 10px;
+}
+/* defines max size of image as its using bootstrap img-fluid */
+#varunSection .harambe {
+  max-height: 600px;
+}
+/* gives a border when hovering over harambe */
+#varunSection .harambe:hover {
+    border: 2px solid black;
+}
+
+/*Start of styles for Paul's section*/
+
+.paulbackground{
+  background-image: url("orangebackground.jpg");
+  opacity: 0.7;
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+}
+
+
+/*puts content in a box with a border radius of 25px*/
+.rcorners1 {
+    border-radius: 25px;
+    background: papayawhip;
+    padding: 20px; 
+    width: 40%;
+    height: 100%; 
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right:auto;
+  
+  }
+  /*changes the style of headers with the "headers" class*/
+  .headers{
+      color:orange;
+      padding: 10px;
+      text-align: center;
+      
+  }
+  
+  /* centers text */
+  .center {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /*changed the body text to "Karma", feel free to change it to something else! */
+  body,h1,h2,h3 {
+      font-family: "Karma", sans-serif
+  }
+  
+  /*container for hover text*/
+  .container1 {
+    position: relative;
+    width: 50%;
+  }
+  
+/*hide hover text when mouse is not hovered over image */
+  .image {
+  display: block;
+  margin-left: 50%;
+  width: 100%;
+  }
+  
+  /* overlay features */
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 50%;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(143, 233, 255, 0.829);
+  }
+  
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+
+  /* changes the color of specific text to dark orange*/
+
+  .darkorange{
+    color:rgb(255, 136, 67)
+  }
+
+  /*Added a specific font style for "pushed out" text */
+  #fontstyle{
+    font-weight: bold;
+    font-size: 1.2em;
+    color:rgb(167, 117, 117);
+  }
+
+   /*Added a specific font style for "pushed in" text */
+  #fontstyle1{
+    font-weight: lighter;
+    font-size: 18px;
+    color: darksalmon;
+  }
+  
+  /* features for hover text */
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* End of styles for Paul's section*/  
+
+/* Start of manals section*/
+
+/*added the background color to differenciate my section from my other team members and make it stand out*/
+#manalssection  {
+   
+    background-color: rgb(252, 184, 184);
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px;
+    widows: 40px;
+}
+/*changed the color and created more of a margin-top*/
+#tble {
+  border: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color:lightseagreen
+}
+/*centered everything so it looked more put together*/
+.center {
+    margin: auto;
+    width: 100%;
+    font-size: medium;
+    text-align: center;
+  }
+/*when you hover over the image it will be bolded*/
+  #manalssection img:hover {
+    border: 3px solid black;
+}
+/*changed the font of a specific heading to make it stand out a little more*/
+.sansserif {
+  font-family: "Times New Roman", Times, serif;
+}
+/* paul used this first!! i wanted by link to stand out and the color adds more to my part of the site*/
+.h1 {
+  border: 5px solid rgb(0, 17, 255);
+}
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid rgb(33, 173, 143);
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+.manalsbackground{
+  background-image: url("https://ih1.redbubble.net/image.849648732.9971/flat,750x,075,f-pad,750x1000,f8f8f8.jpg");
+  opacity: 0.7;
+  padding-bottom: 5%;
+  padding-top: 5%;
+
+}
+/* end of manals section/
