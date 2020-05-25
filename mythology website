@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Captivating Stories of Greek Mythology</title>    
+    </head>
+    
+    <body>
+        <h1><u>The Gods and Goddesess</u></h1>
+
+<!--Start of Manal's Section-->
+<hr>
+<!--Added a color to differentiate my heading as well as bolding it-->
+<h1><strong><span style="color:blue">Manals Section</span></strong></h1>
+</div>
+<p>I thought it would be cool to have my section of the page be about memes because they are entertaining. </p>
+<h1> <em>What Are Memes?</em></h1>
+</div>
+<p>Memes are practically "an idea, behavior, or style that spreads by means of imitation from person to person within a culture-often with the aim of conveying a particular phenomenon, theme, or meaning represented by the meme" (Wikipedia).They are used to fulfill a type of humor and are popular on social media platforms as well.</p>
+<!--used a horizontal line to divide the definition of memes from the actual content in memes and how to create them-->
+<hr>
+<!-- I italicized each title so that it would stand out-->
+<h1> <em>Types of Memes</em></h1>
+<div>
+  <!--a bullet point list to describe the categories of memes-->
+<p>There are many forms of memes, each are divided into three categories...</p>
+<ul>
+    <li>Classic Memes: Are usually cultural referenced and pretty basic, everyone gets what the joke is, these go back to the early 00s.</li>
+    <li>Wholesome Memes: They are postive messages either of encouragment or compliments, they are still used in todays society.</li>
+    <li>Dank Memes: Very dark humor so many people dont find them funny, however they are original and appeal to some. They are still looked at in todays society.</li>
+</ul>
+</p>
+<!--inserted a numbered list to show step by step on how to create a meme-->
+<h1><em>How To Create a Meme</em></h1>
+<ol>
+<li>First off you need to choose the type of meme you want to make, this can be any from the three categories above.</li>
+<li>Now, depending on which type of meme you chose you need to decide what it will be about. It can either be referencing a culture, historical event, or even an inside joke you have with the people you are sharing it with. </li>
+<li>Next,you should choose an image that relates with the reference u decided on doing </li>
+<li>Finally, you can add the written content you want over the image (most people use the impact font) and thats it!</li>
+<P><em> P.S if you dont want to put that much effort in creating a meme then you can just use any meme generator app:) </em></P>
+<hr>
+<!--added a table to describe the different types of people that fit with different types of memes-->
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+
+  <h2><em>How To Send Memes Properly</em></h2>
+
+<table style="width:100%">
+  <tr>
+    <th>What Meme You Should Send Them</th>
+    <th>Type of Person</th> 
+   
+  </tr>
+  <tr>
+    <td>Classic Meme</td>
+    <td>Likes cultural references and movies that most people have watched, they have basic humor.</td>
+    
+  </tr>
+  <tr>
+    <td>Wholesome Memes</td>
+    <td>Someone that is sad and needs some encouragment or just to compliment anyone.</td>
+   
+  </tr>
+  <tr>
+    <td>Dank Memes</td>
+    <td>A person who has a dark sense of humor and does not mind crossing the line when discussing jokes.</td>
+    
+  </tr>
+</table>
+<div>
+<h1>Here is an Example Of A Meme:</h1>
+</div>
+<!--I added an Image of a meme so the audience can visualize it-->
+<img src="https://pics.me.me/nobody-history-channel-after-midnight-history-com-classic-meme-new-format-59270115.png" alt="funny meme"
+</img>
+
+    </body>
+</html>
