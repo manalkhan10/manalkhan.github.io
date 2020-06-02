@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   
+     <!--Added Bootstrap files -Paul --> 
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+      <!-- I (manal) added this so that each of the headings could stand out with a different font-->
+     <style> 
+ 
+        h1 {
+          font-style: oblique;
+        }
+
+        .paulcol img {
+          width: 100%;
+        }
+
+        .flexycontainer {
+          display: flex;
+          flex-wrap: wrap;
+          align-content: center;
+
+        }
+
+        .flexy {
+          min-width: 100px;
+          max-width: 250px;
+        }
+
+        .flexy img {
+          width: 100%;
+        }
+        </style>
+        
+        <!--varun: added style sheet-->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Team 5</title>    
+        
+    </head>
+    
+    <body>
+      <!--inserted a navbar at the top of our page, feel free to make edits! - Paul-->
+      <!-- varun: added "sticky-top" to make navbar persistant when scrolling-->
+      <nav class="navbar sticky-top navbar-expand-md navbar-light" style="background-color: rgb(255, 161, 94);">
+      <!--inserted a picture of harambe as our "brand" - Paul-->
+        <a class="navbar-brand" href="#">
+            <img src="harambe_logo.jpg" alt="Logo" style="height:50px">
+        </a>
+      
+        <!-- inserted links to our HTML and CSS webpages -Paul -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://jvannac.github.io/index.html"><strong>HTML</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://varunadarajah.github.io/index.html"><strong>CSS</strong></a>
+          </li>
+      
+          <!-- inserted a dropdown menu with links -Paul -->
+          <!-- varun: edited so it links to sections, feel free to edit -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Sections
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#"><strong>Paul</strong></a>
+              <a class="dropdown-item" href="#"><strong>Jessica</strong></a>
+              <a class="dropdown-item" href="#varunSection"><strong>Varun</strong></a>
+              <a class="dropdown-item" href="#manalssection"><strong>Manal</strong></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <br>
+      <!--end of navbar-->
+        <h1 class="center" style="font-size: 50px;"><u><strong>Team 5's Page</strong></u></h1>
+        <br>
+        <br>
+
+<!--Start of Paul's Section-->
+
+<!--Added a background image-->
+
+<div class="paulSection">
+
+
+
+<div class="rcorners1">
+
+  <h1 class="headers">Paul's Section</h1>
+      
+  <h2 class="headers"> Neumorphism in Adobe XD</h2>
+  <p>Welcome to a tutorial on how to make neumorphic shapes on Adobe XD! Although it may be a difficult process, neumorphism is a great way of adding a cool 3D effect to your next UX/UI design project. In short, the basic concept behind neumorphism is to add two shadows, one with a negative value and one with a positive value, to any sized shape so that it looks like it is either coming out of the screen or going into the screen. This tutorial specifically will teach you how to make a neumorphic circle, but the same process can be applied to any shape that you make in Adobe XD.</p>
+      
+  <hr>
+  <br>
+</div>
+
+
+<div class="rcorners1">
+<!-- Created two ordered lists to teach user how to make the circles-->
+<h2 class="headers">How to create a <span id="fontstyle">pushed out</span> Neumorphic circle</h2>
+<ol>
+      <li>Press <q>R</q> and hold <q>Shift</q> while dragging the corner of the rectangle to create a simple square. </li>
+      <li>Set the border radius of the square to 100 to make it a circle.</li>
+      <li>Under the <q>Appearance</q> option, add a black shadow to your circle with X and Y coordinates of 6 and a Blur of 10.</li>
+      <li>Duplicate your circle and place the new circle directly on top of the old one.</li>
+      <li>Add a white shadow to the new circle with X and Y coordinates of -6 and a Blur of 10.</li>
+      <li>Adjust the opacity of the first circle’s shadow to 20%</li>
+      <li>Adjust the opacity of the second circle’s shadow to 80%.</li>
+      <li>If needed, alter the Blur, X and Y coordinates, and color of the circle until you are satisfied with the result.</li>
+</ol>
+<!--Added italicized text to add a quick comment about the process-->
+<!--Made italicized text a different color for better visibility-->
+<em><span class="darkorange">Note: Different sized shapes will require different amounts of blur and shadow opacity. Play around with these components until you find an amount that looks right to you!</span></em>
+<br>
+<!-- Added <br> to give a little bit of space between lists.-->
+<br>
+<hr>  
+<br>  
+</div>
+
+<div class="rcorners1">
+
+<p>
+  <h2 class="headers">How to create a <span id="fontstyle1">pushed in</span> Neumorphic circle</h2>
+      <ol>
+          <li>Make a circle and add a black border of size 5 under the “Appearance” option</li>
+          <li>Adjust the object blur of the circle to 5 and name the circle “Dark”</li>
+          <li>Duplicate the “Dark” circle and name it “Light.”</li>
+          <li>Position the light circle off to the side and make the border color white and add an object blur of 5.</li>
+          <li>Duplicate the dark circle again and position it off to the side. Name the circle “Mask.”</li>
+          <li>Right click the mask circle and under the “Arrange” option click “Bring to Front.”</li>
+          <li>Position all the elements directly on top of each other.</li>
+          <li>Move the light circle more towards the top left of the other two circles</li>
+          <li>Select all elements and right click to mask with shape.</li>
+          <li>Adjust the Opacity, Object Blur, and Border Size of Color of all the elements until you are satisfied with the result.</li>
+      </ol>
+</p>
+<br>
+      
+<hr>   
+<br> 
+</div>
+
+<div class="rcorners1">
+<!--Added an unordered list to decribe the prototyping process. Some of the words have <q> tag to quote where to find a function in Adobe XD-->
+
+  <p>
+      <h2 class="headers">Prototyping</h2>
+      <ul>
+          <li>Link the pushed out neumorphic button on artboard 1 to artboard 2 containing the pushed in neumorphic button.</li>
+          <li>For the <span class="darkorange">Trigger</span> select <q>Tap</q>.</li>
+          <li>For the <span class="darkorange">Action Type</span> select <q>Auto Animate</q>.</li>
+          <li>For the <span class="darkorange">Animation</span> select <q>Snap</q>.</li>
+          <li>Change the duration of the Animation to 0 seconds.</li>
+      </ul>
+      <br>
+      <em><span class="darkorange">Note: Adobe XD will try to automatically set the animation duration to 0.2 seconds. You must manually delete the .2 in order to make it 0 seconds.</span></em>
+      <br>
+      <br>
+  </p>
+  
+<hr>
+<br>
+</div>
+
+<!--Styled the table with Bootstrap, the design looks a lot more clean! -->
+<div class="rcorners1">
+
+  <h2 class="headers">Shortcut Keys</h2>  
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Command</th>
+        <th>MAC</th>
+        <th>Windows</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Mask with Shape</td>
+        <td><code>Cmd + Shift + M</code></td>
+        <td><code>Ctrl + Shift + M</code></td>
+      </tr>
+      <tr>
+        <td>Bring to Front</td>
+        <td><code>Cmd + Shift + ]</code></td>
+        <td><code>Ctrl + Shift + ]</code></td>
+      </tr>
+      <tr>
+        <td>Bring to Back</td>
+        <td><code>Cmd + Shift + [</code></td>
+        <td><code>Ctrl + Shift + [</code></td>
+      </tr>
+      <tr>
+        <td>Duplicate</td>
+        <td><code>Cmd + D</code></td>
+        <td><code>Ctrl + D</code></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <br>
+  <hr>
+  <br>
+
+
+<div class="rcorners1">
+
+  <h2 class="headers">Final Product</h2>
+  
+  <div class="center">
+      <p><strong>Hover over the image to see a cool effect.</strong></p>
+  </div>
+  <!--Added an image to show what the final product looks like-->
+
+  <div class="container1">
+    <img src="Neumorphic.jpg" alt="Neumorphic" class="image">
+
+  <!--Added an overlay to create hover effect for image-->
+    <div class="overlay1">
+      <div class="text"> WOAH! </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Added more images using Bootstrap flex-->
+
+<div class="rcorners1">
+
+  <h2 class="headers">More Examples!</h2>
+  <br>
+ 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col paulcol" style="background-color:rgb(255, 222, 168);">
+        <img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons">
+      </div>
+      <div class="col paulcol" style="background-color:rgb(255, 205, 124);">
+        <img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons">
+      </div>
+      <div class="col paulcol" style="background-color:rgb(255, 183, 68);">
+       <img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons">
+      </div>
+    </div>
+   
+    <div class="row">
+      <div class="col paulcol" style="background-color:rgb(255, 222, 168);">
+        <img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons">
+      </div>
+      <div class="col paulcol" style="background-color:rgb(255, 205, 124);">
+        <img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons">
+      </div>
+      <div class="col paulcol" style="background-color:rgb(255, 183, 68);">
+       <img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="rcorners1">
+
+  <h2>Flex container with flexboxes!</h2>
+
+  <div class="flexycontainer">
+    <div class="flexy"><img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons"></div>
+    <div class="flexy"><img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons"></div>
+    <div class="flexy"><img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons"></div>
+    <div class="flexy"><img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons"></div>
+    <div class="flexy"><img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons"></div>
+    <div class="flexy"><img src="Neumorphic.jpg" alt="neumorphic example saying hello world with up and down buttons"></div>
+  </div>
+
+
+
+</div>
+
+<!--Added a box with buttons styled with Bootstrap-->
+
+<div class="rcorners1">
+
+  <h2 class="headers">Buttons</h2>
+    <p>This doesn't relate to the rest of my website, but let's make some different-sized spinning buttons using <code>Bootstrap</code> just for fun!</p>
+    <div class="center">
+      <button class="btn btn-secondary btn-sm">
+        <span class="spinner-border spinner-border-sm"></span>
+        Small..
+      </button>
+
+      <button class="btn btn-secondary">
+        <span class="spinner-border spinner-border-sm"></span>
+        Medium..
+      </button>
+
+      <button class="btn btn-secondary btn-lg">
+        <span class="spinner-border spinner-border-sm"></span>
+        Large..
+      </button>  
+    </div>
+  </div>
+</div>
+
+<!--Start of Jessica's Section-->
+<!-- Added a horizontal line to seperate Paul and Jessica's sections-->
+<hr>
+
+<!--Added a different font color to distinguish where Jessica's section starts-->
+<div style="color:rgb(24, 156, 117)">
+  <h1>Jessica's Section</h1>
+</div>
+<p>For my portion of the HTML website, I decided to make a page on HTML color codes and how to use them in text, using all the required HTML tags for the assignment.</p>
+
+<h2> Colors in HTML text</h2>
+    <p>Color codes are ways of representing colors in a format that a computer can interpret and display. They are commonly used in websites and other software applications. There are a variety of formats, including Hex color codes, RGB and HSL values, HTML color names, and others.</p>
+<!-- Added a horizontal line to seperate the content from the introduction-->
+<hr>
+<!-- Created an unordered lists to display different ways of using text color-->
+<h2>Different ways of using text color:</h2>
+    <ul>
+        <li>Hex color codes </li>
+        <li>HTML color names</li>
+        <li>RGB color values </li>
+        <li>HSL color values </li>
+    </ul>
+<!-- Added <br> to give a little bit of space-->
+<br>
+<!-- Start of hex color codes section.-->
+</p>
+<p>
+<h2>Text color using  <span style="color:blue">Hex</span> color codes</h2>
+    <p>The most common way of coloring HTML text is by using hexadecimal color codes (Hex code for short). Simply add a style attribute to the text element you want to color and use the color property with your Hex code. You would want to use a Hex color code for the following reasons:</p>
+<!-- Used an ordered list to show why you would want to use Hex color codes-->
+    <p>
+    <ol>
+        <li>If you already have a code</li>
+        <li>If you use a "color picker" program that is a chart of colors with Hex codes attached to each color in the chart</li>
+    </ol>
+</p>
+</p>
+<!-- Start of HTML color names section.-->
+<p>
+<h2>Text color using <span style="color:purple">HTML</span> color names</h2>
+<p>Another way to color your website's text is by using an HTML color name. The HTML code is similar, just replace the Hex code from the previous step with the name of the color you want to use.</p>>
+<br>
+<em>Note: There are 140 named colors to choose from, and there is a list which you can check out at https://htmlcolorcodes.com/color-names/</em>
+<br>
+<br>
+</p>
+<em>Example: Table of <span style="color:red">Red</span> HTML color names</em>
+<!--Added a <table> with some space between the text and wall inside of cells and a width of 400px.-->
+    <style type="text/css">
+        .tg  {border-collapse:collapse;border-spacing:0;}
+        .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+        .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+        .tg .tg-akbm{font-weight:bold;text-align:left;text-decoration:underline;vertical-align:top}
+        .tg .tg-0lax{text-align:left;vertical-align:top}
+        </style>
+        <table class="tg">
+          <tr>
+            <th class="tg-akbm">CSS by Name</th>
+            <th class="tg-akbm">Hex Color Code</th>
+          </tr>
+          <tr>
+            <td class="tg-0lax">INDIAN RED</td>
+            <td class="tg-0lax">#CD5C5C</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">LIGHTCORAL</td>
+            <td class="tg-0lax">#F08080</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">SALMON</td>
+            <td class="tg-0lax">#FA8072</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">DARKSALMON</td>
+            <td class="tg-0lax">#E9967A</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">LIGHTSALMON</td>
+            <td class="tg-0lax">#FFA07A</td>
+          </tr>
+        </table>
+    <br>
+<!-- Start of RGB color values section.-->
+</p>
+<p>
+<h2>Text color using <span style="color:orange">RGB</span> color values</h2>
+    <p>Insert your RGB values within the rgb() parameter following the color property. When using an RGB value in your website, you can also specify opacity. Instead of rgb() use rgba() – the a is for alpha, the color channel that controls opacity – and after your three color values add a fourth for opacity, on a scale from 0 – 1 (0 for completely transparent, 1 for fully opaque).</p>
+</p>
+<!-- Start of HSL color values section.-->
+</p>
+<p>
+<h2>Text color using <span style="color:green">HSL</span> color values</h2>
+    <p>A fourth method for adding color is by using HSL values. Similar to the RGB syntax described above, HSL uses the hsl() prefix, and three values for hue, saturation and lightness. Hue is represented on a scale of 0 – 360, while saturation and lightness are each a percentage between 0% and 100%. Just like RGB, when using HSL you can modify the color opacity right in the color property. Use the hsla() prefix and include a fourth value between 0 and 1 for the level of opacity you need.</p>
+</p>
+
+<hr>
+<br>
+
+<p><h3>HTML Color Chart</h3></p>
+<!--Added an image of an HTML color chart-->
+<img src="HTMLColorChart.jpg" alt="HTML Color Chart">
+   
+    <!--Start of Varun's Section-->
+    
+    <!--added breaks and line to differentiate sections-->
+    <br><br>
+    <!--div to mark off my section-->
+    <!-- made my section a bootstrap container in the page-->
+    <div id="varunSection" class="container-md">
+
+    <h1 style="color:rgb(50, 119, 53)">Varun's Section</h1>
+    
+    <h3>Welcome to my section. I didn't really know what to write about, so here's some random stuff about gorillas.</h3>
+    <!--italizied disclaimer-->
+    <p>
+        <em class="sideNote">Please note: I am not an expert on gorillas, and all of the information below is from the <a href="https://en.wikipedia.org/wiki/Gorilla">Wikipedia page for "Gorilla".</a></em>
+    </p>
+
+    <h1>Gorillas</h1>
+    <p><strong>Gorillas</strong>, not to be confused with the band <strong>"Gorillaz"</strong>, are ground-dwelling apes that primarily reside in the forests of central Sub-Saharn Africa. They are the largest living primates.</p>
+    
+    <h2>Types of Gorillas</h2>
+    <p>Gorrilas are divided into 2 main species:</p>
+    <!--list for the species-->
+    <ul>
+        <li>Eastern Gorrilas</li>
+        <li>Western Gorrilas</li>
+    </ul>
+    
+    <p>These two species are further divided into different sub-species, outlined in the table below.</p>
+    
+    <!--table for the subspecies-->
+    <!-- made it a bootstrap table, now it scales within section-->
+    <table class="table table-hover table-dark">
+      <thead>
+        <tr class="tableTitle">
+          <th>Eastern Gorillas</th>
+          <th>Western Gorillas</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Mountain Gorilla</td>
+          <td>Western lowland gorilla</td>
+        </tr>
+        <tr>
+          <td>Eastern lowland gorilla</td>
+          <td>Cross River gorilla</td>
+        </tr>
+      </tbody>
+    </table>
+    <!--italicized fun fact-->
+    <em class="sideNote">Fun fact: The scientific name for the Western Gorilla is "Gorilla gorilla", and the scientific name for the Western lowland gorilla is "Gorilla gorilla gorilla".</em>
+    
+    <!--line break-->
+    <hr>
+
+    <p>Thank you for reading my section about the great Gorilla. Now finally here is a picture of a gorilla:</p>
+
+    <!--image of harambe, scaled to 400 height because it was big-->
+    <div class="col text-center">
+      <div title="Harambe">
+        <!-- used bootstrap to center and oval harambe, as well as img-fluid for a responsive size-->
+        <img src="harambe.jpg" class="mx-auto d-block rounded-circle img-fluid harambe">
+      </div>
+      <p class="sideNote">(Source: <a href="https://www.cincinnati.com/story/news/2016/05/29/who-harambe/85133508/">Cincinnati.com</a>)</p>
+    
+      <!-- added bootstrap button linked to a modal to popout a picture of harambe -->
+    
+      <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target=".bigHarambe">Harambe Popup</button>
+    </div>
+    
+    <!-- harambe modal-->
+    <div class="modal fade bigHarambe" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Harambe</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="harambe.jpg" class="mx-auto d-block rounded img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+<!--Start of Manal's Section-->
+<hr>
+<div id="manalssection">
+  <div class="h1">
+<div class="manalsbackground">
+<!--Added a color to differentiate my heading as well as bolding it-->
+<div class="center">
+  <div class="rcorners1">  
+<div class="container">
+  <!-- added a different font size with bootstrap (im pretty sure idk if that counts lol-->
+  <h1><strong><span style="color: fuchsia;"(1.5rem = 20px)>Manals Section</span></strong></h1>
+</div>
+
+  <p>I thought it would be cool to have my section of the page be about memes because they are entertaining. </p>
+<h1> <em>What Are Memes?</em></h1>
+<p>Memes are practically "an idea, behavior, or style that spreads by means of imitation from person to person within a culture-often with the aim of conveying a particular phenomenon, theme, or meaning represented by the meme" (Wikipedia).They are used to fulfill a type of humor and are popular on social media platforms as well.</p>
+<!--used a horizontal line to divide the definition of memes from the actual content in memes and how to create them-->
+</div>
+<hr>
+<!-- I italicized each title so that it would stand out-->
+<h1 style="background-color: aqua;">Types of Memes:</h1> 
+<div>
+  <!--a bullet point list to describe the categories of memes-->
+<p>There are many forms of memes, each are divided into three categories...</p>
+<ul>
+ <b><li>Classic Memes: Are usually cultural referenced and pretty basic, everyone gets what the joke is, these go back to the early 00s.</li>
+    <li>Wholesome Memes: They are postive messages either of encouragment or compliments, they are still used in todays society.</li>
+    <li>Dank Memes: Very dark humor so many people dont find them funny, however they are original and appeal to some. They are still looked at in todays society.</li>
+</b>
+</ul>
+</p>
+<!--inserted a numbered list to show step by step won how to create a meme-->
+<h1 style="background-color: aqua;">How to Create a Meme</h1> 
+<ol>
+<b><li>First off you need to choose the type of meme you want to make, this can be any from the three categories above.</li>
+<li>Now, depending on which type of meme you chose you need to decide what it will be about. It can either be referencing a culture, historical event, or even an inside joke you have with the people you are sharing it with. </li>
+<li>Next,you should choose an image that relates with the reference u decided on doing </li>
+<li>Finally, you can add the written content you want over the image (most people use the impact font) and thats it!</li>
+</b>
+</ol>
+</div>
+<h1 style="background-color: aquamarine;font-size:small;">P.S if you dont want to put that much effort in creating a meme then you can just use any meme generator app:)</h1> 
+
+<hr>
+<!--added a table to describe the different types of people that fit with different types of memes-->
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+<h1 style="background-color: aqua;">How To Send Memes Properly:</h1> 
+
+<div>
+<!--I did that cool hover effect on my table because Varuns looked really cool with bootstrap-->
+<table id="tble" style="width:100%">
+<table class="table table-hover table-light">
+  <tr>
+    <th>What Meme You Should Send Them</th>
+    <th><b>Type of Person</b></th> 
+   
+  </tr>
+  <tr>
+    <td><b>Classic Meme</b></td>
+    <td>Likes cultural references and movies that most people have watched, they have basic humor.</td>
+    
+  </tr>
+  <tr>
+    <td><b>Wholesome Memes</b></td>
+    <td>Someone that is sad and needs some encouragment or just to compliment anyone.</td>
+   
+  </tr>
+  <tr>
+    <td><b>Dank Memes</b></td>
+    <td>A person who has a dark sense of humor and does not mind crossing the line when discussing jokes.</td>
+    
+  </tr>
+</table>
+</div>
+<br>
+<!--added this lil table thing to show my opinion on memes with bootstrap-->
+<div class="container-fluid">
+  <h1 style="background-color: aqua;">Opinion:</h1> 
+  <h1 style="background-color: rgb(236, 228, 228);font-size:small;">ranking memes based on how much I like them!</h1>
+  <div class="row">
+    <div class="col" style="background-color:lavender;">1.wholesome memes </div>
+    <div class="col" style="background-color:rgb(255, 0, 119);">2.dank memes</div>
+    <div class="col" style="background-color:lavender;">3.classic memes</div>
+  </div>
+</div>
+<br>
+
+
+<div>
+  <!--I added buttons with the labels of memes with Bootstrap-->
+<div class="container">
+  <h1 style="background-color: aqua;">Buttons</h1> 
+  <button type="button" class="btn btn-outline-danger">Wholesome Memes</button>
+  <button type="button" class="btn btn-outline-danger">Dank Memes</button>
+  <button type="button" class="btn btn-outline-danger">Classic Memes</button>
+
+<!--I added an Image of a meme so the audience can visualize it-->
+<!--i added the bootstrap rounded feature so my image could look cleaner-->
+<div class="container">
+  <h1 style="background-color: aqua;">Here is an Example of a Wholesome Meme:</h1>     
+  <img src="https://data.whicdn.com/images/324475400/original.jpg"class="rounded" alt="Cinque Terre" width="800px">
+  </div>
+
+  <br>
+  <div class="rcorners1">
+<h1>For more information follow the link below to learn about memes:</h1>
+<p><a href="https://theconversation.com/explainer-what-are-memes-20789">What Are Memes?</a></p>
+
+    </body>
+</html>
