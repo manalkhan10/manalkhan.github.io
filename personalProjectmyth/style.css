@@ -23,3 +23,9 @@
     border: 3px solid black;
 }
   
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
