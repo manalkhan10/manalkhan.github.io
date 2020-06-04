@@ -614,12 +614,30 @@ table, th, td {
 <h1>For more information follow the link below to learn about memes:</h1>
 <p><a href="https://theconversation.com/explainer-what-are-memes-20789">What Are Memes?</a></p>
 
-<h2>My First JavaScript</h2>
+<!--I added this button type thing with Javascript so it shows the types of memes and then says its purpose is to have fun-->
+<h2>What is the purpose for the following Memes?</h2>
 
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-
-<p id="demo"></p>
+<p id="demo">Meme Content</p>
+<!--tried adding an array put together with the button and it turned out decent-->
+<button type="button" onclick='document.getElementById("demo").innerHTML = "To have FUN!"'>Click Me To Find Out</button>
     </body>
+
+    <p id="demo"></p>
+    
+    <script>
+    var memes, text, fLen, i;
+    memes = ["dank", "classic", "wholesome"];
+    fLen = memes.length;
+    
+    text = "<ul>";
+    for (i = 0; i < fLen; i++) {
+      text += "<li>" + memes[i] + "</li>";
+    }
+    text += "</ul>";
+    
+    document.getElementById("demo").innerHTML = text;
+    </script>
+<!--I have literally spent forever trying to add a function but whenever I do it replaces my array and Im not sure why-->
+</script>
+
 </html>
