@@ -10,7 +10,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
-
+    <script src="varun.js"></script>
+    
       <!-- I (manal) added this so that each of the headings could stand out with a different font-->
      <style> 
  
@@ -475,15 +476,23 @@
 
     <!--image of harambe, scaled to 400 height because it was big-->
     <div class="col text-center">
-      <div title="Harambe">
-        <!-- used bootstrap to center and oval harambe, as well as img-fluid for a responsive size-->
-        <img src="harambe.jpg" class="mx-auto d-block rounded-circle img-fluid harambe">
+      <div class="container-fluid mx-auto" title="Harambe">
+        <div id="harambeRow" class="row justify-content-center">
+          <!-- used bootstrap to center and oval harambe, as well as img-fluid for a responsive size-->
+          <div class="col-xs-4">
+            <img src="harambe.jpg" class="mx-auto d-block rounded-circle img-fluid harambe">
+          </div>
+
+        </div>
       </div>
       <p class="sideNote">(Source: <a href="https://www.cincinnati.com/story/news/2016/05/29/who-harambe/85133508/">Cincinnati.com</a>)</p>
     
       <!-- added bootstrap button linked to a modal to popout a picture of harambe -->
     
       <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target=".bigHarambe">Harambe Popup</button>
+      <button type="button" class="btn btn-dark btn-lg" onclick="addHarambe();">Add a Harambe</button>
+      <button type="button" class="btn btn-dark btn-lg" onclick="switchHarambe();">Switch Image</button>
+      <button type="button" class="btn btn-dark btn-lg" onclick="resetHarambe();">Reset</button>
     </div>
     
     <!-- harambe modal-->
