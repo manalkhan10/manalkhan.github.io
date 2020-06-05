@@ -36,7 +36,7 @@ body  {
 }
 /* defines max size of image as its using bootstrap img-fluid */
 #varunSection .harambe {
-  max-height: 600px;
+  max-height: 400px;
 }
 /* gives a border when hovering over harambe */
 #varunSection .harambe:hover {
